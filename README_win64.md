@@ -95,7 +95,7 @@ Typing at "Anaconda Prompt":
 |1 |<fastq_file_path>|A file that contains all TCR sequences|
 |2 |<sample_name>|A unique sample name of your choice to be added to the output files|
 |3 |<length_threshold>|Select a minimum length threshold for filtering [Usually - 240]|
-|4 |<quality_threshold>|Select a minimum quality threshold for filtering [Usually - 240]|
+|4 |<quality_threshold>|Select a minimum quality threshold for filtering [acceptable - 20]|
 |5 |<output_path>|Choose directory path for the output files|
 |6 |<igblastn_path>|igblastn path (Usually found in "bin" folder of igblast program|
 |7 |<igblast_directory_path>|igblast directory path|
@@ -103,7 +103,7 @@ Typing at "Anaconda Prompt":
 
 **Run Example:**
 
-```bash "TCR2Rep_pipeline_[win64].bash" AL11_S1_L001_R1_001.fastq AL11 240 25 C:\Users\user\TCR2Rep_win64\ C:\Users\user\TCR2Rep_win64\NCBI\igblast-1.21.0\bin\igblastn.exe C:\Users\user\TCR2Rep_win64\NCBI\igblast-1.21.0 C:\Users\user\TCR2Rep_win64```
+```bash "TCR2Rep_pipeline_[win64].bash" AL11_S1_L001_R1_001.fastq AL11 240 20 C:\Users\user\TCR2Rep_win64\ C:\Users\user\TCR2Rep_win64\NCBI\igblast-1.21.0\bin\igblastn.exe C:\Users\user\TCR2Rep_win64\NCBI\igblast-1.21.0 C:\Users\user\TCR2Rep_win64```
 
 
 
